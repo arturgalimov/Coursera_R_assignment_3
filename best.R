@@ -2,7 +2,7 @@ best<- function(state, outcome){
     file_path<-"C:/Users/Artur/OneDrive/Dokumente/STUDIES/R/Workspace/outcome-of-care-measures.csv"
     x<-read.csv(file_path, stringsAsFactors = FALSE, strip.white = TRUE, na.strings = c("NA","", "Not Available"))
     
-    
+    # comment for gitHub
     if (outcome== "heart attack"){
         outcome_int<-"Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack"
     } else if (outcome== "heart failure"){
